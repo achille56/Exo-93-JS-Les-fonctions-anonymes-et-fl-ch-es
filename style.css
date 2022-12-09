@@ -11,3 +11,24 @@ html {
 body {
     width: 100%;
 }
+
+#alert {
+    padding: 1rem;
+    box-shadow: 2px 2px 2px black;
+    background-color: white;
+    transition: background-color;
+    transition-duration: 4s;
+}
+
+#alert:hover {
+    background-color: red;
+}
+
+#somme {
+    padding: 1rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+#somme:hover {
+    background-color: green;
+}
